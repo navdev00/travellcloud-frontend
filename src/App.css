@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+
+/* font-family: 'Poppins', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s ease;
+
+}
+
+:root{
+    --primary: hsl(26,93%,50%);
+    --hover: hsl(26,90%,42%);
+    --white: hsl(0,0%,100%);
+    --black: hsl(0,0%,18%);
+    --text: hsl(240,1%,48%);
+    --whiteDeam: hsl(0,0%,93%);
+    --gerybg: hsl(0,0%,96%);
+    --greytext: hsl(190,190,190);
+    --inputcolor: hsl(330,12%,97%);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.section{
+    padding: 4rem 0 2rem;
+}
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+    color: red;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn{
+    padding: .4rem 1.5rem;
+    background: var(--primary);
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.btn a{
+    color: var(--white);
+    font-weight: 500;
+}
+
+.btn:hover a{
+    color: var(--white);
+}
+
+.secIntro{
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto 2rem;
+}
+
+.secIntro .title{
+   color: var(--black);
+   line-height: 1.5rem;
+   padding-bottom: .5rem;
+
+}
+
+.secIntro p{
+    font-size: 13px;
+    color: var(--text);
+    font-weight: 500;
+}
+
+img,video{
+    width: 100%;
+    height: auto;
+
+}
+
+
+input{
+    font-size: 100%;
+    outline: none;
+}
+input:focus{
+    outline: none !important;
+}
+
+@media screen and (min-width:556px) {
+    .mainContent{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+@media screen and (min-width:884px) {
+    .mainContent{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+
+@media screen and (min-width:1240px) {
+    .container{
+        width: 75% !important;
+        margin: auto;
+    }
+    .mainContent{
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+}

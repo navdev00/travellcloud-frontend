@@ -1,0 +1,106 @@
+
+:root{
+    --primary: hsl(26,93%,50%);
+    --hover: hsl(26,90%,42%);
+    --white: hsl(0,0%,100%);
+    --black: hsl(0,0%,18%);
+    --text: hsl(240,1%,48%);
+    --whiteDeam: hsl(0,0%,93%);
+    --gerybg: hsl(0,0%,96%);
+    --greytext: hsl(190,190,190);
+    --inputcolor: hsl(330,12%,97%);
+}
+.carousel-caption{
+bottom: 5rem;
+
+}
+.carousel{
+    position: relative;
+}
+.menu-icon{
+  display: none;
+
+}
+.carousel-caption h5{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.carousel-destination-image{
+    width: 100vw;
+    height: 85vh;
+    object-fit: cover;
+}
+.carousel-indicators [data-bs-target]{
+    display: none;
+}
+
+
+.home{
+    height: 80vh;
+    /* background: url('../../../public/Assets/R.jfif'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    /* background: linear-gradient(rgba(33,33,33,0.522),rgba(33,33,33,0.522)),url('../../../public/Assets/Singapore1.jpg'); */
+}
+.homeText{
+    text-align: center;
+}
+.homeText .title{
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+.homeText .subTitle{
+    color: var(--white);
+    opacity: .9;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 1rem 0;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.explore-btn{
+    background: transparent;
+    border: 1px solid var(--white);
+}
+.home .btn:hover{
+    background: var(--primary);
+}
+
+@media screen and (min-width:720px) {
+   .homeText{
+    padding: 1rem 10rem;
+   }
+   .homeText .title{
+    font-size: 3.5rem;
+    margin: auto;
+    line-height: 4rem;
+   }
+  
+}
+
+@media (max-width:500px) {
+    .carousel-destination-image{
+        height: 39vh;
+       }
+       .carousel-caption h5{
+   
+        font-size: 1.5rem;
+    }
+    .carousel-caption {
+        bottom: 1rem;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        position: absolute;
+        top: 9rem;
+    }
+}

@@ -1,0 +1,10 @@
+.notfoundcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

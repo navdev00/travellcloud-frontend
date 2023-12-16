@@ -1,0 +1,137 @@
+:root{
+    --primary: hsl(26,93%,50%);
+    --hover: hsl(26,90%,42%);
+    --white: hsl(0,0%,100%);
+    --black: hsl(0,0%,18%);
+    --text: hsl(240,1%,48%);
+    --whiteDeam: hsl(0,0%,93%);
+    --gerybg: hsl(0,0%,96%);
+    --greytext: hsl(190,190,190);
+    --inputcolor: hsl(330,12%,97%);
+}
+.liked{
+    color: red;
+}
+
+.offer .mainContent{
+     gap: 1rem;
+
+}
+.offer .mainContent .singleOffer{
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: .5rem;
+    box-shadow:  0 2px 8px 2px rgba(178,178,178,0.334);
+}
+.offer .mainContent .singleOffer .icon{
+    font-size: 20px;
+    color: var(--primary);
+}
+.offer .mainContent .singleOffer small{
+   font-weight: 500;
+   color: var(--text);
+   cursor: pointer;
+}
+.offer .mainContent .singleOffer span{
+    color: var(--text);
+}
+.offer .mainContent .singleOffer .discount{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background: var(--primary);
+    color: var(--white);
+    border-radius: 3rem;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+
+.offer .mainContent .singleOffer .destImage{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.offer .mainContent .singleOffer .destImage img{
+    height: 100%;
+}
+
+
+.offer .mainContent .singleOffer .offerBody{
+  padding: 1rem;
+}
+.offer .mainContent .singleOffer .offerBody .price{
+    justify-content: space-between;
+}
+.offer .mainContent .singleOffer .offerBody h4{
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.1rem;
+
+}
+.offer .mainContent .singleOffer .offerBody .status{
+    padding: 5px 10px;
+    color: var(--hover);
+    background: var(--gerybg);
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 3rem;
+}
+.offer .mainContent .singleOffer .offerBody .amenities{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1rem 0;
+    gap: .5rem;
+}
+
+.offer .mainContent .singleOffer .offerBody .amenities .singleAmenity{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: var(--gerybg);
+    gap: .5rem;
+}
+
+.offer .mainContent .singleOffer .offerBody .viewbtn{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: .6rem;
+    color: var(--white);
+    font-weight: 600;
+    gap: .5rem;
+
+   
+    background: var(--primary);
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    
+}
+.offer .mainContent .singleOffer .offerBody .viewbtn a{
+    color: white;
+    font-weight: normal;
+}
+.offer .mainContent .singleOffer .offerBody .viewbtn:hover{
+background-color: transparent;
+border: 1px solid grey;
+}
+.offer .mainContent .singleOffer .offerBody .viewbtn:hover a{
+    color: black;
+}
+.offer .mainContent .singleOffer .offerBody .viewbtn .icon{
+    color: var(--white);
+}
+.offer .mainContent .singleOffer .offerBody .viewbtn:hover .icon{
+    color: black;
+}
+
+.offer .mainContent:hover{
+    transform: translateY(-7px);
+}

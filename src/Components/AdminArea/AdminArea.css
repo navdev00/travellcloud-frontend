@@ -1,0 +1,44 @@
+
+.admin-navbarSection .admin-header{
+  
+    align-items: center;
+    justify-content: space-between;
+ 
+    width: 80%;
+    padding: 1rem;
+   
+    margin: 0rem auto;
+}
+.admin-navbarSection .activeHeader{
+    background:rgba(190,190,190);
+    box-shadow: 0 2px 8px 2px rgba(178,178,178,0.45);
+}
+.addpackage{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.addpackage form{
+    display: flex;
+    flex-direction: column;
+}
+.infoForm h3{
+    color: black;
+}
+
+.infoForm {
+    margin-top: 9rem;
+}
+
+
+.mantine-1abbsss {
+    width: 651px;
+}
+.infoForm input{
+    margin-top: 1rem;
+}
+.infoForm button{
+   text-align: center;
+   margin-top: 2rem;
+   justify-content: end;
+}

@@ -1,0 +1,10 @@
+.reviewLink{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.textarea_input{
+    padding: 1em;
+    line-height: 1.4;
+    height: 100px;
+}

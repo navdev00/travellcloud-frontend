@@ -1,0 +1,87 @@
+.logo img {
+  width: 200px;
+  height: 50px;
+  object-fit: cover;
+}
+.navbar {
+  padding: 0.5rem 30px;
+  width: 100%;
+  z-index: 1000;
+  height: 100px;
+ 
+}
+.navbar .nav-lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar .nav-items ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar .nav-items ul li {
+  cursor: pointer;
+}
+.navbar .nav-lists .auth {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar .nav-lists .auth button {
+  border: none;
+  background-color: orangered;
+  color: #fff;
+  padding: 6px 13px;
+  border-radius: 20px;
+}
+.mobile-menu {
+ display: none;
+}
+a{
+    color: black;
+}
+
+@media only screen and (max-width: 980px) {
+  .navbar .nav-lists {
+    display: none;
+  }
+   .mobile-menu{
+    display: block;
+    color: black;
+ position: absolute;
+
+
+  }
+  .mobileNav{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 38vw;
+    padding: 1rem 3rem;
+    justify-content: center;
+    margin: auto ;
+  }
+  .mobileNav .auth-btn{
+    background-color: rgb(231, 117, 117);
+    width: 77px;
+    padding: 9px 12px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: #fff;
+  }
+  
+  
+  
+}
+
+@media only screen and (max-width: 580px){
+    .mobileNav{
+     
+        width: 58vw;
+        padding: 1rem 3rem;
+        
+      }
+}

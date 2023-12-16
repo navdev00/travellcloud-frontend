@@ -1,0 +1,200 @@
+/* :root{
+    --primary: hsl(26,93%,50%);
+    --hover: hsl(26,90%,42%);
+    --white: hsl(0,0%,100%);
+    --black: hsl(0,0%,18%);
+    --text: hsl(240,1%,48%);
+    --whiteDeam: hsl(0,0%,93%);
+    --gerybg: hsl(0,0%,96%);
+    --greytext: rgb(190,190,190);
+    --inputcolor: hsl(330,12%,97%);
+}
+
+.navbarSection .header{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000;
+    margin: 5rem 0;
+
+}
+.navbarSection .activeHeader{
+    background:rgba(190,190,190);
+    box-shadow: 0 2px 8px 2px rgba(178,178,178,0.45);
+}
+.logo{
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    
+    
+}
+
+
+@media screen and (max-width:768px){
+    .navbar{
+        background: hsl(0deg 23% 84%);
+        position: absolute;
+        height: max-content;
+        padding: 1rem;
+        width: 100%;
+        top:0;
+        left:-500%;
+        box-shadow: .2px 4px rgba(209, 209, 209, .904);
+        transition: .5s ease;
+        z-index: 1000;
+    }
+    .navlists{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+
+    }
+    .navItem{
+        padding: 1rem;
+
+    }
+    .navlink{
+        color: #000 !important;
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+
+    }
+    .navlink:hover{
+        color: var(--primary);
+    }
+    .headerbtn{
+        flex-direction: column;
+    }
+    .headerbtn .btn{
+        margin-top: 1rem;
+    }
+    .headerbtn .btn a{
+        font-weight: 600;
+        text-transform: uppercase;
+        
+    }
+    .headerbtn .btn a:hover{
+        color: var(--white);
+    }
+    .headerbtn .loginBtn{
+        background: none;
+        border: 1px solid var(--primary);
+    }
+    .headerbtn .loginBtn a{
+        color: var(--primary);
+    }
+    .headerbtn .loginBtn:hover{
+        background: var(--hover);
+    }
+    .headerbtn .loginBtn a:hover{
+       
+        color: var(--white);
+    }
+    .navbarClose{
+        position: absolute;
+        top: 1rem;
+        right: 1.6rem;
+        color: var(--primary);
+    }
+    .navbarClose:hover .icon{
+        color: var(--hover);
+    }
+    .activeNavbar{
+        left: 0;
+        transition: .7s ease-in-out;
+    }
+    .navbarToggle .icon{
+          font-size: 27px;
+          color: #000;
+          position: absolute;
+          right: 9px;
+          top: 47px;
+    }
+    .navbarToggle .icon:hover{
+        color: var(--primary);
+    }
+    
+}
+
+@media screen and (min-width:769px) {
+    .navbarToggle, .navbarClose{
+        display: none;
+    }
+    .header{
+        padding: 1.5rem 2rem !important;
+    }
+    .navlists{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .navlink{
+        color: #000;
+        font-size: 1rem;
+        font-weight: bolder;
+        padding: 0.45rem;
+        text-transform: uppercase;
+
+    }
+    .navlink:hover{
+        color: var(--primary);
+    }
+    .headerbtn .btn{
+        margin-left: 1rem;
+    }
+    .headerbtn .btn a{
+       color: var(--white);
+       font-weight: 500;
+    }
+    .headerbtn .loginBtn{
+        background: none;
+        border: 1px solid var(--white);
+    } */
+    /* .headerbtn .loginBtn:hover{
+        background: var(--primary);
+        border: 1px solid var(--primary);
+    } */
+    /* .headerbtn .loginBtn a{
+        color: var(--white);
+    }
+ 
+}
+
+@media screen and (min-width:960px) {
+    .navItem{
+        padding: 3rem;
+        
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .header{
+        padding: 1rem 3.9rem !important;
+    }
+    .navItem{
+        padding: 2.5rem;
+        color: #000;
+    }
+    .headerbtn .btn {
+        margin-left: 1.8rem;
+    }
+  
+}
+
+@media (max-width:500px) {
+    .navbarToggle .icon {
+     
+        top: -76px;
+    }
+} */
+
